@@ -31,6 +31,7 @@ app.use('*', (req,res) => {
       at: new Date().toISOString(),
       method: req.method,
       hostname: req.hostname,
+      msg: "This is test 101",
       ip: req.ip,
       query: req.query,
       headers: req.headers,
